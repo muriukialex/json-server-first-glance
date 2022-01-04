@@ -13,7 +13,9 @@ utilising [json-server](https://github.com/typicode/json-server) for RESTful ser
  
  faker steps in and generates a list of random people for you to use
  
- Try making the following HTTP request to http://localhost:3000/
+ Sample HTTP request to http://localhost:3000/
+    
+    
     POST request, 
     http://localhost:3000/people/
     
