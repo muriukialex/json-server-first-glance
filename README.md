@@ -18,7 +18,6 @@ utilising [json-server](https://github.com/typicode/json-server) for RESTful ser
     
     POST request, 
     http://localhost:3000/people/
-    
     in the body of your payload include
     {
       "id": 1001,
@@ -28,24 +27,20 @@ utilising [json-server](https://github.com/typicode/json-server) for RESTful ser
     
     GET request 
     http://localhost:3000/people
-    
     you get back a response of list of 101 people including our KimPossible character above
     
     PUT request 
     http://localhost:3000/people/1001
-    
     in the body of your payload include
     {
       "id": 1001,
       "name": "JakeTran",
       "avatar": "https://cdn.fakercloud.com/avatars/sharvin_128.jpg"  
     }
-    
     the request above updates the 'person' at id 1001 from oldname KimPossible to JakeTran
     
     DELETE request
     http://localhost:3000/people/1001
-    
     this request deletes our initially posted 'person' called KimPossible
     
     
